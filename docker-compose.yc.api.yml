@@ -1,0 +1,5 @@
+version: "3.5"
+
+services:
+  passport:
+    image: cr.yandex/crp5tcknmirem7af3edu/passport/identity:${VERSION_TAG}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oYNO445hV1w/SyqNJhv8Wou4aTZ9J4kKFNdts0UKBPoidakRb8IWsHRV60ENGA2iXj6YknYZMyvXOBMSuzAbvQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\passport\\Passport.Domain\\Passport.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VINKOS\\.nuget\\packages\\dotseed.domain\\0.1.1\\dotseed.domain.0.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

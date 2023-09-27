@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: passport
+  namespace: hr-vision
+  labels:
+    app: passport
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: passport
+  template:
+    metadata:
+      namespace: hr-vision
+      labels:
+        app: passport
+    spec:
+      containers:
+      - name: passport
+        image: cr.yandex/crp5tcknmirem7af3edu/passport/identity:latest
+        env:
+        - name: ConnectionStrings__DefaultConnection
+          value: "Server=rc1c-efoz745swpnd82xe.mdb.yandexcloud.net;Port=6432;Database=vision-passport;User ID=hr_vision_admin;password=OznINgi6l&0s;Pooling=true;Max Auto Prepare=1000;Maximum Pool Size=10;SSL Mode=Require;Trust Server Certificate=true;"
+        - name: RabbitMqSettings__Host
+          value: "rabbit-rabbitmq.rabbit.svc.cluster.local"
+        - name: RabbitMqSettings__UserName
+          value: "vision"
+        - name: RabbitMqSettings__Password
+          value: "u8rtf344"
+        - name: RabbitMqSettings__VirtualHost
+          value: "/"
+        - name: RabbitMqSettings__ConnectionRetryCount
+          value: "3"
+        - name: RabbitMqSettings__MessageSendRetryCount
+          value: "3"
+        - name: UserActivationSettings__ActivationHost
+          value: "https://app.hr.vision/structure"
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: regcred 

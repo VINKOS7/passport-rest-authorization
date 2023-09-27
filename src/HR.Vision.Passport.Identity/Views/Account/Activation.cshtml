@@ -1,0 +1,35 @@
+﻿@using E.Shop.Passport.Identity.Controllers.Account.Models
+@model ActivationModel
+
+@if(Model is null)
+{
+    <div class="login-page-container">
+        <div class="login-page-content">
+            <fieldset>
+                <h2 style="background-color: white">Тут только по приглашению)</h2>
+            </fieldset>
+        </div>
+    </div>
+}
+else
+{
+    <div class="login-page-container">
+        <div class="login-page-content">
+            <form asp-action="Activation" class="login-form">     
+                <input type="hidden" asp-for="Email"/>
+                <input type="hidden" asp-for="PasswordToken"/>
+                <fieldset>
+                    <h2>HR Vision</h2>
+                     <div class="form-group">
+                            <label asp-for="NewPassword">Password</label>
+                            <input type="new-password" class="form-control" asp-for="NewPassword" autocomplete="off">
+                     </div>
+                    <div class="form-group">
+                        <button class="login-button" name="button" value="reset_password">Активировать</button>                       
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+}
+

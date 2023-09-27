@@ -1,0 +1,243 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\diploma\\app\\MyTry\\eshop-backend\\passport\\src\\HR.Vision.Passport.Identity\\HR.Vision.Passport.Identity.csproj": {}
+  },
+  "projects": {
+    "C:\\diploma\\app\\MyTry\\eshop-backend\\passport\\src\\HR.Vision.Passport.Identity\\HR.Vision.Passport.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\diploma\\app\\MyTry\\eshop-backend\\passport\\src\\HR.Vision.Passport.Identity\\HR.Vision.Passport.Identity.csproj",
+        "projectName": "HR.Vision.Passport.Identity",
+        "projectPath": "C:\\diploma\\app\\MyTry\\eshop-backend\\passport\\src\\HR.Vision.Passport.Identity\\HR.Vision.Passport.Identity.csproj",
+        "packagesPath": "C:\\Users\\VINKOS\\.nuget\\packages\\",
+        "outputPath": "C:\\diploma\\app\\MyTry\\eshop-backend\\passport\\src\\HR.Vision.Passport.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VINKOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Abp.Quartz": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "Dotseed.EventBus": {
+              "target": "Package",
+              "version": "[0.1.1, )"
+            },
+            "Dotseed.EventBus.RabbitMQ": {
+              "target": "Package",
+              "version": "[0.1.0, )"
+            },
+            "Hosting.Extensions.Quartz": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "OpenIddict.Abstractions": {
+              "target": "Package",
+              "version": "[4.0.0-preview4.22517.68, )"
+            },
+            "OpenIddict.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.0-preview4.22517.68, )"
+            },
+            "OpenIddict.Client": {
+              "target": "Package",
+              "version": "[4.0.0-preview4.22517.68, )"
+            },
+            "OpenIddict.Core": {
+              "target": "Package",
+              "version": "[4.0.0-preview4.22517.68, )"
+            },
+            "OpenIddict.EntityFramework.Models": {
+              "target": "Package",
+              "version": "[4.0.0-preview4.22517.68, )"
+            },
+            "OpenIddict.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.0.0-preview4.22517.68, )"
+            },
+            "OpenIddict.EntityFrameworkCore.Models": {
+              "target": "Package",
+              "version": "[4.0.0-preview4.22517.68, )"
+            },
+            "OpenIddict.MongoDb.Models": {
+              "target": "Package",
+              "version": "[4.0.0-preview4.22517.68, )"
+            },
+            "OpenIddict.Quartz": {
+              "target": "Package",
+              "version": "[4.0.0-preview4.22517.68, )"
+            },
+            "OpenIddict.Server": {
+              "target": "Package",
+              "version": "[4.0.0-preview4.22517.68, )"
+            },
+            "OpenIddict.Server.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.0-preview4.22517.68, )"
+            },
+            "OpenIddict.Server.DataProtection": {
+              "target": "Package",
+              "version": "[4.0.0-preview4.22517.68, )"
+            },
+            "OpenIddict.Validation": {
+              "target": "Package",
+              "version": "[4.0.0-preview4.22517.68, )"
+            },
+            "OpenIddict.Validation.ServerIntegration": {
+              "target": "Package",
+              "version": "[4.0.0-preview4.22517.68, )"
+            },
+            "OpenIddict.Validation.SystemNetHttp": {
+              "target": "Package",
+              "version": "[4.0.0-preview4.22517.68, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Quartz.AspNetCore": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Quartz.DependencyInjection.NetCore": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Quartz.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Quartz.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Quartz.Jobs": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Quartz.Plugins": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.28.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
