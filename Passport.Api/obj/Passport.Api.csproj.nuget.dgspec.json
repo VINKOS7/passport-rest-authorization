@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\Passport\\Passport.Api\\Passport.Api.csproj": {}
+    "E:\\NAU\\back\\passport-rest-authorization\\Passport.Api\\Passport.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\Passport\\Passport.Api\\Passport.Api.csproj": {
+    "E:\\NAU\\back\\passport-rest-authorization\\Passport.Api\\Passport.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\Passport\\Passport.Api\\Passport.Api.csproj",
+        "projectUniqueName": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Api\\Passport.Api.csproj",
         "projectName": "Passport.Api",
-        "projectPath": "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\Passport\\Passport.Api\\Passport.Api.csproj",
+        "projectPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Api\\Passport.Api.csproj",
         "packagesPath": "C:\\Users\\VINKOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\Passport\\Passport.Api\\obj\\",
+        "outputPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\Passport\\Passport.Domain\\Passport.Domain.csproj": {
-                "projectPath": "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\Passport\\Passport.Domain\\Passport.Domain.csproj"
+              "E:\\NAU\\back\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj": {
+                "projectPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj"
               },
-              "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\Passport\\Passport.Infrastructure\\Passport.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\Passport\\Passport.Infrastructure\\Passport.Infrastructure.csproj"
+              "E:\\NAU\\back\\passport-rest-authorization\\Passport.Infrastructure\\Passport.Infrastructure.csproj": {
+                "projectPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Infrastructure\\Passport.Infrastructure.csproj"
               }
             }
           }
@@ -104,14 +104,14 @@
         }
       }
     },
-    "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\passport\\Passport.Domain\\Passport.Domain.csproj": {
+    "E:\\NAU\\back\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\passport\\Passport.Domain\\Passport.Domain.csproj",
+        "projectUniqueName": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj",
         "projectName": "Passport.Domain",
-        "projectPath": "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\passport\\Passport.Domain\\Passport.Domain.csproj",
+        "projectPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj",
         "packagesPath": "C:\\Users\\VINKOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\passport\\Passport.Domain\\obj\\",
+        "outputPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -170,14 +170,14 @@
         }
       }
     },
-    "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\passport\\Passport.Infrastructure\\Passport.Infrastructure.csproj": {
+    "E:\\NAU\\back\\passport-rest-authorization\\Passport.Infrastructure\\Passport.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\passport\\Passport.Infrastructure\\Passport.Infrastructure.csproj",
+        "projectUniqueName": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Infrastructure\\Passport.Infrastructure.csproj",
         "projectName": "Passport.Infrastructure",
-        "projectPath": "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\passport\\Passport.Infrastructure\\Passport.Infrastructure.csproj",
+        "projectPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Infrastructure\\Passport.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\VINKOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\passport\\Passport.Infrastructure\\obj\\",
+        "outputPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -199,8 +199,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\passport\\Passport.Domain\\Passport.Domain.csproj": {
-                "projectPath": "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\passport\\Passport.Domain\\Passport.Domain.csproj"
+              "E:\\NAU\\back\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj": {
+                "projectPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj"
               }
             }
           }

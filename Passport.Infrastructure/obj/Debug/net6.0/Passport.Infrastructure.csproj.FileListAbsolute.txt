@@ -1,0 +1,15 @@
+E:\NAU\back\passport-rest-authorization\Passport.Infrastructure\obj\Debug\net6.0\Passport.Infrastructure.csproj.AssemblyReference.cache
+E:\NAU\back\passport-rest-authorization\Passport.Infrastructure\obj\Debug\net6.0\Passport.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\NAU\back\passport-rest-authorization\Passport.Infrastructure\obj\Debug\net6.0\Passport.Infrastructure.AssemblyInfoInputs.cache
+E:\NAU\back\passport-rest-authorization\Passport.Infrastructure\obj\Debug\net6.0\Passport.Infrastructure.AssemblyInfo.cs
+E:\NAU\back\passport-rest-authorization\Passport.Infrastructure\obj\Debug\net6.0\Passport.Infrastructure.csproj.CoreCompileInputs.cache
+E:\NAU\back\passport-rest-authorization\Passport.Infrastructure\bin\Debug\net6.0\Passport.Infrastructure.deps.json
+E:\NAU\back\passport-rest-authorization\Passport.Infrastructure\bin\Debug\net6.0\Passport.Infrastructure.dll
+E:\NAU\back\passport-rest-authorization\Passport.Infrastructure\bin\Debug\net6.0\Passport.Infrastructure.pdb
+E:\NAU\back\passport-rest-authorization\Passport.Infrastructure\bin\Debug\net6.0\Passport.Domain.dll
+E:\NAU\back\passport-rest-authorization\Passport.Infrastructure\bin\Debug\net6.0\Passport.Domain.pdb
+E:\NAU\back\passport-rest-authorization\Passport.Infrastructure\obj\Debug\net6.0\Passport.Infrastructure.csproj.CopyComplete
+E:\NAU\back\passport-rest-authorization\Passport.Infrastructure\obj\Debug\net6.0\Passport.Infrastructure.dll
+E:\NAU\back\passport-rest-authorization\Passport.Infrastructure\obj\Debug\net6.0\refint\Passport.Infrastructure.dll
+E:\NAU\back\passport-rest-authorization\Passport.Infrastructure\obj\Debug\net6.0\Passport.Infrastructure.pdb
+E:\NAU\back\passport-rest-authorization\Passport.Infrastructure\obj\Debug\net6.0\ref\Passport.Infrastructure.dll

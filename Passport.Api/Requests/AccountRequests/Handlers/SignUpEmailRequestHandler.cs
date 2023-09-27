@@ -14,12 +14,10 @@ public class SignUpEmailRequestHandler : IRequestHandler<SignUpEmailRequest, Sig
 {
     private readonly IEmailService _emailService;
     private readonly IAccountRepo _accountRepo;
-    private readonly IHttpContextAccessor _httpContextAccessor;
     private readonly ILogger<SignUpEmailRequestHandler> _logger;
     private readonly IMediator _mediator;
     public SignUpEmailRequestHandler(
         IMediator mediator,
-        IHttpContextAccessor httpContextAccessor,
         IEmailService emailService,
         IAccountRepo accountRepo,
         ILogger<SignUpEmailRequestHandler> logger)
@@ -27,7 +25,6 @@ public class SignUpEmailRequestHandler : IRequestHandler<SignUpEmailRequest, Sig
         _mediator = mediator;
         _emailService = emailService;
         _accountRepo = accountRepo;
-        _httpContextAccessor = httpContextAccessor;
         _logger = logger;
     }
 
@@ -45,7 +42,7 @@ public class SignUpEmailRequestHandler : IRequestHandler<SignUpEmailRequest, Sig
 
             if (await _accountRepo.FindByNickNameAsync(request.Nickname) is not null) throw new BadHttpRequestException("Nick is busy");
 
-            var account = Account.From(request, _httpContextAccessor.HttpContext.Request.Headers.UserAgent.ToString());
+            var account = Account.From(request);
 
             await _accountRepo.AddAsync(account);
 

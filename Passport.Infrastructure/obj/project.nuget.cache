@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p97/EJ1TwW7GN2kYwuC7tXFcVJZb9TUXMxvMsw8In7lZjdknJEKRQl23i8OWnZ1O8FL/1x+W4tG9PBPe/QmrZw==",
+  "dgSpecHash": "lK09Yj6B+viiP8O4+78ZsQWYrWI2ZnzpTDSCwIKCteDb0FkS7HxrAHP/B52mrVr6ToGklRuq0/IZWb9z6ziA7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\VINKOS\\Desktop\\ITPDevTest\\back\\passport\\Passport.Infrastructure\\Passport.Infrastructure.csproj",
+  "projectFilePath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Infrastructure\\Passport.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VINKOS\\.nuget\\packages\\dotseed.context\\0.1.2\\dotseed.context.0.1.2.nupkg.sha512",
     "C:\\Users\\VINKOS\\.nuget\\packages\\dotseed.domain\\0.1.1\\dotseed.domain.0.1.1.nupkg.sha512",

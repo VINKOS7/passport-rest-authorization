@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Passport.Domain/1.0.0": {
+        "dependencies": {
+          "Dotseed.Domain": "0.1.1"
+        },
+        "runtime": {
+          "Passport.Domain.dll": {}
+        }
+      },
+      "Dotseed.Domain/0.1.1": {
+        "runtime": {
+          "lib/netstandard2.1/Dotseed.Domain.dll": {
+            "assemblyVersion": "0.1.1.0",
+            "fileVersion": "0.1.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Passport.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dotseed.Domain/0.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f5LAC8Ot1UOo14je7gszRskQHmvxG4gUMTDQ/PyYMsi+PDeIpftboB3MzD7qHQ7gQN2it/qhYzgJjXLWvkDA8w==",
+      "path": "dotseed.domain/0.1.1",
+      "hashPath": "dotseed.domain.0.1.1.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+E:\NAU\back\passport-rest-authorization\Passport.Domain\bin\Debug\net6.0\Passport.Domain.deps.json
+E:\NAU\back\passport-rest-authorization\Passport.Domain\bin\Debug\net6.0\Passport.Domain.dll
+E:\NAU\back\passport-rest-authorization\Passport.Domain\bin\Debug\net6.0\Passport.Domain.pdb
+E:\NAU\back\passport-rest-authorization\Passport.Domain\obj\Debug\net6.0\Passport.Domain.csproj.AssemblyReference.cache
+E:\NAU\back\passport-rest-authorization\Passport.Domain\obj\Debug\net6.0\Passport.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\NAU\back\passport-rest-authorization\Passport.Domain\obj\Debug\net6.0\Passport.Domain.AssemblyInfoInputs.cache
+E:\NAU\back\passport-rest-authorization\Passport.Domain\obj\Debug\net6.0\Passport.Domain.AssemblyInfo.cs
+E:\NAU\back\passport-rest-authorization\Passport.Domain\obj\Debug\net6.0\Passport.Domain.csproj.CoreCompileInputs.cache
+E:\NAU\back\passport-rest-authorization\Passport.Domain\obj\Debug\net6.0\Passport.Domain.dll
+E:\NAU\back\passport-rest-authorization\Passport.Domain\obj\Debug\net6.0\refint\Passport.Domain.dll
+E:\NAU\back\passport-rest-authorization\Passport.Domain\obj\Debug\net6.0\Passport.Domain.pdb
+E:\NAU\back\passport-rest-authorization\Passport.Domain\obj\Debug\net6.0\ref\Passport.Domain.dll

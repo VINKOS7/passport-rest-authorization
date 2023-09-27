@@ -1,14 +1,14 @@
 ﻿using Dotseed.Domain;
 
-using Passport.Domain.Aggregates.Account.Commands;
 using Passport.Domain.Aggregates.Account.Enums;
 using Passport.Domain.Aggregates.Account.Values;
+using Passport.Domain.Aggregates.Account.Commands;
 
 namespace Passport.Domain.Aggregates.Account;
 
 public class Account : Entity, IAggregateRoot
 {
-    public static Account From(IAddAccountCommand command, string userAgent)
+    public static Account From(IAddAccountCommand command)
     {
         var now = DateTime.UtcNow;
 
