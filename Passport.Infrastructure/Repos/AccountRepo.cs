@@ -14,7 +14,20 @@ public class AccountRepo : IAccountRepo
 
     public IUnitOfWork UnitOfWork => _db;
 
-    public async Task AddAsync(Account account) => await _db.Accounts.AddAsync(account);
+    public async Task AddAsync(Account account) 
+    {
+        switch (account)
+        {
+            case DefaultAccount acc:
+                break;
+            case OwnerAccount acc:
+                break;
+            case AdminAccount acc:
+                break;
+            case ModerAccount acc:
+                break;
+        }
+    }
 
     public async Task<Account> FindByActivationCodeAsync(string ActivationCode) => await _db.Accounts.FirstOrDefaultAsync(acc => acc.ActivationCode == ActivationCode);
 
