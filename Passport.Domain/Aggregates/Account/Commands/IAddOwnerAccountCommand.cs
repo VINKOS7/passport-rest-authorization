@@ -1,6 +1,6 @@
 ﻿namespace Passport.Domain.Aggregates.Account.Commands;
 
-public interface IAddDefaultAccountCommand
+public interface IAddOwnerAccountCommand
 {
     string Nickname { get; }
     string Password { get; }

@@ -18,7 +18,7 @@ public record SignUpEmailRequest(
     [JsonProperty("phone-number")] string PhoneNumber,
     [JsonProperty("password")] string Password
 ) 
-: IAddAccountCommand, IRequest<SignUpResponse>;
+: IAddDefaultAccountCommand, IRequest<SignUpResponse>;
 
 public record SignInPhoneNumberRequest(
     [JsonProperty("phone-number")] string PhoneNumber,

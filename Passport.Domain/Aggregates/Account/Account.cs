@@ -6,13 +6,14 @@ using Passport.Domain.Aggregates.Account.Commands;
 
 namespace Passport.Domain.Aggregates.Account;
 
-public class Account : Entity, IAggregateRoot
+
+public abstract class Account : Entity, IAggregateRoot
 {
-    public static Account From(IAddAccountCommand command)
+    public static DefaultAccount From(IAddDefaultAccountCommand command)
     {
         var now = DateTime.UtcNow;
 
-        var account = new Account()
+        var account = new DefaultAccount()
         {
             AccessStatus = AccessStatus.WaitActivate,
             ActivationCode = $"{new Random().Next(000000, 999999)}",
@@ -31,7 +32,34 @@ public class Account : Entity, IAggregateRoot
         account.SetCreatedAt(now);
         account.SetUpdateAt(now);
 
-        return account; 
+        return account;
+    }
+
+    {
+    public static OwnerAccount From(IAddOwnerAccountCommand command)
+    {
+        var now = DateTime.UtcNow;
+
+        var account = new OwnerAccount()
+        {
+            AccessStatus = AccessStatus.WaitActivate,
+            ActivationCode = $"{new Random().Next(000000, 999999)}",
+            Nickname = command.Nickname,
+            Password = command.Password,
+            Email = command.Email,
+            PhoneNumber = command.PhoneNumber,
+
+            Devices = new(),
+
+            PasswordAt = now,
+            PhoneNumberAt = now,
+            EmailAt = now,
+        };
+
+        account.SetCreatedAt(now);
+        account.SetUpdateAt(now);
+
+        return account;
     }
 
     public AccessStatus AccessStatus { get; set; }
@@ -45,3 +73,15 @@ public class Account : Entity, IAggregateRoot
     public List<Device> Devices { get; set; }
     public DateTime PhoneNumberAt { get; set; }
 }
+
+public class DefaultAccount : Account { }
+
+
+public class OwnerAccount : Account 
+{
+    public bool isCreator { get; set; } = false;
+}
+
+public class AdminAccount : Account { }
+
+public class ModerAccount : Account { }
