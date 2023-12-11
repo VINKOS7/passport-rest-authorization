@@ -5,3 +5,11 @@ E:\NAU\back\passport-rest-authorization\Passport.Api\obj\Debug\net6.0\Passport.A
 E:\NAU\back\passport-rest-authorization\Passport.Api\obj\Debug\net6.0\Passport.Api.csproj.CoreCompileInputs.cache
 E:\NAU\back\passport-rest-authorization\Passport.Api\obj\Debug\net6.0\Passport.Api.MvcApplicationPartsAssemblyInfo.cache
 E:\NAU\back\passport-rest-authorization\Passport.Api\obj\Debug\net6.0\Passport.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Job\passport-rest-authorization\Passport.Api\obj\Debug\net6.0\Passport.Api.csproj.AssemblyReference.cache
+C:\Job\passport-rest-authorization\Passport.Api\obj\Debug\net6.0\Passport.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Job\passport-rest-authorization\Passport.Api\obj\Debug\net6.0\Passport.Api.AssemblyInfoInputs.cache
+C:\Job\passport-rest-authorization\Passport.Api\obj\Debug\net6.0\Passport.Api.AssemblyInfo.cs
+C:\Job\passport-rest-authorization\Passport.Api\obj\Debug\net6.0\Passport.Api.csproj.CoreCompileInputs.cache
+C:\Job\passport-rest-authorization\Passport.Api\obj\Debug\net6.0\Passport.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Job\passport-rest-authorization\Passport.Api\obj\Debug\net6.0\Passport.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Job\passport-rest-authorization\Passport.Api\obj\Debug\net6.0\Passport.Api.sourcelink.json

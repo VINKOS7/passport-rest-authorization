@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Passport.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1908c04c27c335210e07dbeefe6dd5c125c7f75")]
 [assembly: System.Reflection.AssemblyProductAttribute("Passport.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Passport.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

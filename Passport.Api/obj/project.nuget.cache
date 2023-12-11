@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hsc5O5RDJfBejr6lP24ljm+Hz5St4+gikvy2GZnIPMDjrq9i8s7SVl9YAw4HVL+iGMiUBk7dXBRyEEtYGlevgg==",
+  "dgSpecHash": "UAA/sxK19KkBPzOGHmShp2awjDmhEsAxFF1m+z4/LH8P8QGQPjv9zhWKoP5Fy6W+4aAwCBe74egtdtnagzYAWQ==",
   "success": true,
-  "projectFilePath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Api\\Passport.Api.csproj",
+  "projectFilePath": "C:\\Job\\passport-rest-authorization\\Passport.Api\\Passport.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VINKOS\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\VINKOS\\.nuget\\packages\\dotseed.context\\0.1.2\\dotseed.context.0.1.2.nupkg.sha512",

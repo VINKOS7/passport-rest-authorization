@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\NAU\\back\\passport-rest-authorization\\Passport.Api\\Passport.Api.csproj": {}
+    "C:\\Job\\passport-rest-authorization\\Passport.Api\\Passport.Api.csproj": {}
   },
   "projects": {
-    "E:\\NAU\\back\\passport-rest-authorization\\Passport.Api\\Passport.Api.csproj": {
+    "C:\\Job\\passport-rest-authorization\\Passport.Api\\Passport.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Api\\Passport.Api.csproj",
+        "projectUniqueName": "C:\\Job\\passport-rest-authorization\\Passport.Api\\Passport.Api.csproj",
         "projectName": "Passport.Api",
-        "projectPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Api\\Passport.Api.csproj",
+        "projectPath": "C:\\Job\\passport-rest-authorization\\Passport.Api\\Passport.Api.csproj",
         "packagesPath": "C:\\Users\\VINKOS\\.nuget\\packages\\",
-        "outputPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Api\\obj\\",
+        "outputPath": "C:\\Job\\passport-rest-authorization\\Passport.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\NAU\\back\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj": {
-                "projectPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj"
+              "C:\\Job\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj": {
+                "projectPath": "C:\\Job\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj"
               },
-              "E:\\NAU\\back\\passport-rest-authorization\\Passport.Infrastructure\\Passport.Infrastructure.csproj": {
-                "projectPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Infrastructure\\Passport.Infrastructure.csproj"
+              "C:\\Job\\passport-rest-authorization\\Passport.Infrastructure\\Passport.Infrastructure.csproj": {
+                "projectPath": "C:\\Job\\passport-rest-authorization\\Passport.Infrastructure\\Passport.Infrastructure.csproj"
               }
             }
           }
@@ -100,18 +100,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\NAU\\back\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj": {
+    "C:\\Job\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj",
+        "projectUniqueName": "C:\\Job\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj",
         "projectName": "Passport.Domain",
-        "projectPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj",
+        "projectPath": "C:\\Job\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj",
         "packagesPath": "C:\\Users\\VINKOS\\.nuget\\packages\\",
-        "outputPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Domain\\obj\\",
+        "outputPath": "C:\\Job\\passport-rest-authorization\\Passport.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -166,18 +166,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\NAU\\back\\passport-rest-authorization\\Passport.Infrastructure\\Passport.Infrastructure.csproj": {
+    "C:\\Job\\passport-rest-authorization\\Passport.Infrastructure\\Passport.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Infrastructure\\Passport.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Job\\passport-rest-authorization\\Passport.Infrastructure\\Passport.Infrastructure.csproj",
         "projectName": "Passport.Infrastructure",
-        "projectPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Infrastructure\\Passport.Infrastructure.csproj",
+        "projectPath": "C:\\Job\\passport-rest-authorization\\Passport.Infrastructure\\Passport.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\VINKOS\\.nuget\\packages\\",
-        "outputPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Infrastructure\\obj\\",
+        "outputPath": "C:\\Job\\passport-rest-authorization\\Passport.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -199,8 +199,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\NAU\\back\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj": {
-                "projectPath": "E:\\NAU\\back\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj"
+              "C:\\Job\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj": {
+                "projectPath": "C:\\Job\\passport-rest-authorization\\Passport.Domain\\Passport.Domain.csproj"
               }
             }
           }
@@ -244,7 +244,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
